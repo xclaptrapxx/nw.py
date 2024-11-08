@@ -1,6 +1,7 @@
 Algorytm Needleman-Wunscha do globalnego dopasowania sekwencji
 
 Opis
+
 Program implementuje algorytm Needleman-Wunscha w języku Python, umożliwiając globalne dopasowanie dwóch sekwencji, takich jak DNA lub białka. Program przyjmuje dwie sekwencje zapisane w formacie FASTA i wyświetla wynik dopasowania.
 Algorytm korzysta z macierzy punktacji i macierzy śledzenia, aby znaleźć najlepsze dopasowanie między dwiema sekwencjami, uwzględniając dopasowania, niedopasowania oraz kary za luki.
 
@@ -25,15 +26,16 @@ Przykładowe dane wejściowe
 
 Poniżej znajduje się przykładowa zawartość pliku seqs.fa:
 
-  >seq1
-  GATTACA
-  >seq2
-  GCATGCU
+    >seq1
+    GATTACA
+    >seq2
+    GCATGCU
 
 Po uruchomieniu programu:
-  Wynik dopasowania: 0
-  Alignment 1: G-ATTACA
-  Alignment 2: GCA-TGCU
+     
+    Wynik dopasowania: 0
+    Alignment 1: G-ATTACA
+    Alignment 2: GCA-TGCU
 
 Uwagi:
 
